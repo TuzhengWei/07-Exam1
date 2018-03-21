@@ -98,6 +98,15 @@ def problem3(rect, n, window):
     # -------------------------------------------------------------------------
 
 
+    for _ in range(n):
+        a = rg.Rectangle(rg.Point(x1,y1),rg.Point(x2,y2))
+
+        point(x1,y1) = point.y + 30
+        line = rg.Line(a, b)
+        line.attach_to(window)
+        window.render(0.07)
+
+
 # -----------------------------------------------------------------------------
 # Calls  main  to start the ball rolling.
 # -----------------------------------------------------------------------------
